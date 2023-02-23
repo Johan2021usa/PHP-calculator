@@ -1,0 +1,108 @@
+/**General container*/
+#parent-div{
+    display: block;
+    background-color: #33BEFF;
+    padding: 2%;
+}
+
+.child-div{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+
+    width: auto;
+    height: 100%;
+
+    background-color: #3399FF;
+    padding: 2%;
+}
+
+/**Form div*/
+.forms-div{
+    display: inline-grid;
+    align-items: center;
+
+    background-color: #33FF99;
+    padding: 2%;
+}
+
+.label-div{
+    display: grid;
+    align-items: center;
+    justify-items: stretch;
+    justify-content: space-around;
+}
+
+.label-div label{
+    font-family: Cambria;
+    font-size: 24px;
+    font-style: normal;
+}
+.label-div input{
+    background-color: #33FFFF;
+    font-family: Cambria;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 2%;
+    border-style: none;
+}
+
+/**Button div*/
+.buttons-div{
+    display: grid;
+    align-items: center;
+    justify-items: stretch;
+    justify-content: space-around;
+}
+
+.buttons-div button{
+    font-family: Cambria;
+    font-size: 25px;
+    font-style: normal;
+    background-color: #33F1FF;
+    border-style: none;
+}
+.button-unite:hover{
+    background-color: #FF338B;
+}
+
+/**Result-div*/
+.result-div{
+    background-color: #33FF99;
+
+    display: grid;
+    align-items: center;
+    justify-items: stretch;
+    justify-content: space-around;
+}
+.result-div span{
+    font-family: Cambria;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#total-div{
+    border-width: 1px;
+    background-color: #33FFFF;
+    font-size: 20px;
+}
+
+.presentation{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: auto;
+    margin-top: 1%;
+}
+.presentation div{
+    padding: 1%;
+    width: fit-content;
+
+    font-size: 20px;
+    font-family: Cambria;
+    background-color: #33FFFF;
+}
